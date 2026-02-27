@@ -1,0 +1,13 @@
+[workspace]
+channels = ["conda-forge"]
+name = "LM_Fundamentals"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+start = "python main.py"
+
+[dependencies]
+python = "3.12.*"
+pillow = ">=12.1.1,<13"
+numpy = ">=2.4.2,<3"
